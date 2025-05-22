@@ -46,3 +46,31 @@ body {
   margin-bottom: 1.5rem;
   line-height: 1.6;
 }
+
+.button-group {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.button {
+  background-color: #9333ea;
+  color: white;
+  padding: 0.5rem 1rem;
+  border-radius: 0.5rem;
+  text-decoration: none;
+  text-align: center;
+  transition: background-color 0.15s ease-in-out;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+  flex: 1;
+  height: 40px;
+  font-size: 16px;
+  max-width: 160px;
+}
+
+.button:hover {
+  background-color: #7e22ce;
+}
